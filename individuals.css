@@ -155,16 +155,6 @@ body {
 
 
 /* Cards (Advantages) */
-.section-title {
-  font-size: 1.8rem;
-  margin-top: 150px;
-  margin-bottom: 50px;
-  margin-left: 290px;
-  color: #713f00;
-  display: flex;
-  align-items: center;
-  gap: 9px;
-}
 .i-section-title{
   font-size: 1.8rem;
   margin-top: 100px;
@@ -391,16 +381,6 @@ body {
     display: block;
   }
 
-  .section-title {
-  font-size: 1.6rem;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  margin-left: 240px;
-  color: #713f00;
-  display: flex;
-  align-items: center;
-  gap: 9px;
-}
 .i-section-title{
     font-size: 1.6rem;
   margin-top: 100px;
@@ -520,12 +500,6 @@ body {
   .adv-card, .veh-card { 
     min-width: 98px; 
     max-width: 99vw;
-  }
-  .section-title {
-    font-size: 1.3rem;
-    margin-left: 70px;
-    margin-top: 40px; 
-    margin-bottom: 12px; 
   }
   .i-section-title{
     font-size: 1.3rem;

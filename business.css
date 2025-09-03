@@ -188,16 +188,6 @@ body {
   align-items: center;
   gap: 9px;
 }
-.i-section-title{
-  font-size: 1.8rem;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  margin-left: 250px;
-  color: #713f00;
-  display: flex;
-  align-items: center;
-  gap: 9px;
-}
 
 .adv-cards {
   display: flex;
@@ -426,16 +416,6 @@ body {
   align-items: center;
   gap: 9px;
 }
-.i-section-title{
-    font-size: 1.6rem;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  margin-left: 200px;
-  color: #713f00;
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  }
 
   .adv-cards { 
     gap: 13px; 
@@ -470,7 +450,7 @@ body {
 }
 
 
-@media (max-width: 431px) and (min-width: 375px) {
+@media (max-width: 431px) and (min-width: 350px) {
   .biz-section{ 
     padding: 10px 2vw;
   }
