@@ -158,6 +158,28 @@ body {
   padding-top: 8px;
 }
 
+.contact-form button {
+  background: #ff9500;
+  color: #fff;
+  font-size: 1.09rem;
+  font-weight: 700;
+  padding: 13px 13px;
+  border: none;
+  border-radius: 19px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 8px;
+  box-shadow: 0 3px 14px #fdc98737;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  justify-content: center;
+  transition: background 0.15s, color 0.13s;
+}
+.contact-form button:hover {
+  background: #e08604;
+}
+
 
 .scroll-up-btn{
   all: unset;
@@ -258,6 +280,7 @@ body {
   }
 }
 
+
 /* Mobile: Full width, tighter spacing, stack columns */
 @media (max-width:600px) {
   .tc-header {
@@ -311,3 +334,19 @@ body {
   }
 }
 
+
+@media (max-width: 431px) and (min-width: 350px){
+.contact-form button {
+    font-size: 0.95rem;
+    padding: 12px 11px;
+    border-radius: 12px;
+  }
+}
+
+
+@media (max-width: 376px) and (min-width: 360px){
+.contact-form button {
+    font-size: 0.89rem;
+    padding: 11px 11px;
+  }
+}
