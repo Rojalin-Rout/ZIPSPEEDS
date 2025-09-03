@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="driver-partner.css">
+    <title>Driver Partner - Zipspeeds</title>
+</head>
+<body>
+    
+    <!-- Page 1: Hero Section -->
+    <section class="hero-section">
+      <!-- Join Now Button-->
+      <div class="join-now-banner">
+        <a href="#join-team-form" class="join-now-btn">
+          <i class="fas fa-user-plus"></i> Join Now
+        </a>
+      </div>
+
+        <div class="hero-container">
+            <h1><i class="fas fa-handshake"></i> Become a Zipspeeds Partner</h1>
+            <h2>Drive. Earn. Grow with Zipspeeds.</h2>
+            <p>Take charge of your income and future by partnering with Zipspeeds.<br>
+            We offer fair payouts, flexible work hours, high-demand orders, and full support — so you focus on delivering, and we handle the rest.</p>
+            
+            <ul class="benefits-list">
+                <li><i class="fas fa-coins"></i> Daily Earnings + Weekly Bonuses</li>
+                <li><i class="fab fa-whatsapp"></i> Instant WhatsApp Orders – No confusion</li>
+                <li><i class="fas fa-eye"></i> 100% Transparent Payouts</li>
+                <li><i class="fas fa-heart"></i> Respectful & Supportive Team</li>
+                <li><i class="fas fa-gift"></i> Zero Joining Fees</li>
+            </ul>
+            
+            <p>Whether you're riding a bike, scooty, or 3w commercial auto, Tata Ace, pickup etc – Zipspeeds is your perfect earning partner in <strong>@Bhubaneswar & @Cuttack.</strong></p>
+            
+            <div class="cta-text">
+                <p><strong>Har Delivery Mein, Aapka Saath – Zipspeeds ke Saath!</strong></p>
+                <p><i class="fas fa-handshake"></i> Join now. Let's grow together.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 2: Why Choose Us -->
+    <section class="why-choose-section">
+        <div class="container">
+            <h2><i class="fas fa-star"></i> Why Become a Delivery Driver with Zipspeeds?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Attractive bonus and incentives</h3>
+                </div>
+                <div class="benefit-card-r">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h3>Hassle-free and regular cashout</h3>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Work in your own flexible time</h3>
+                </div>
+                <div class="benefit-card-r">
+                    <i class="fas fa-headset"></i>
+                    <h3>Dedicated driver partner assistance</h3>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Easy and convenient application</h3>
+                </div>
+                <div class="benefit-card-r">
+                    <i class="fas fa-user-plus"></i>
+                    <h3>Simple registration process</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 3: Registration Form -->
+    <section id="join-team-form" class="join-driver-section">
+      <form action="https://formspree.io/f/mvgbgjjg" class="driver-form" enctype="multipart/form-data" autocomplete="on">
+        <h2><i class="fas fa-user-plus"></i> Join Our Team</h2>
+        
+        <label for="name">Full Name <span class="req">*</span></label>
+        <input type="text" name="name" id="name" required placeholder="Enter your full name">
+        
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="you@example.com">
+        
+        <label for="phone">Phone Number <span class="req">*</span></label>
+        <input type="tel" name="phone" id="phone" required pattern="[0-9]{10,}" placeholder="10-digit phone number">
+        
+        <label for="whatsapp">WhatsApp Number</label>
+        <input type="tel" name="whatsapp" id="whatsapp" placeholder="If different from phone">
+        
+        <label for="vehicle-type">Vehicle Type <span class="req">*</span></label>
+        <select name="vehicle-type" id="vehicle-type" required>
+          <option value="">Select vehicle type</option>
+          <option value="2w">2 Wheeler</option>
+          <option value="3w">3 Wheeler</option>
+          <option value="4w">4 Wheeler</option>
+        </select>
+        
+        <label for="address">Current Address <span class="req">*</span></label>
+        <textarea name="address" id="address" rows="2" required placeholder="Your current address"></textarea>
+        
+        <fieldset class="driver-docs">
+          <legend>Upload Documents <span class="req">*</span></legend>
+          
+          <label>RC of Vehicle <span class="req">*</span>
+            <input type="file" name="rc" accept="application/pdf,image/*" required>
+          </label>
+          <label>Adhaar <span class="req">*</span>
+            <input type="file" name="aadhaar" accept="application/pdf,image/*" required>
+          </label>
+          <label>DL (Driving License) <span class="req">*</span>
+            <input type="file" name="dl" accept="application/pdf,image/*" required>
+          </label>
+          <label>PAN (Optional)
+            <input type="file" name="pan" accept="application/pdf,image/*">
+          </label>
+          <label>Bank Details (UPI ID) <span class="req">*</span>
+            <input type="text" name="upi" required placeholder="Enter your UPI ID">
+          </label>
+        </fieldset>
+        
+        <button type="submit"><i class="fas fa-paper-plane"></i> Apply Now</button>
+      </form>
+    </section>
+
+</body>
+</html>

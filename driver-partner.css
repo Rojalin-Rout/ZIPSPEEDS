@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+.join-now-banner {
+  position: absolute;
+  top: 32px;
+  right: 4vw;
+  z-index: 20;
+  display: flex;
+  justify-content: flex-end;
+  width: 98vw;
+  max-width: 1180px;
+  pointer-events: none;
+}
+
+.join-now-btn {
+  pointer-events: all;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: whitesmoke;
+  color: #ff9500;
+  font-weight: 700;
+  font-size: 1.04rem;
+  padding: 13px 25px;
+  border-radius: 28px;
+  text-decoration: none;
+  box-shadow: 0 2px 15px #ff980042;
+  transition: background 0.18s;
+}
+
+.join-now-btn i {
+  font-size: 1.1em;
+}
+
+.join-now-btn:hover, .join-now-btn:focus {
+  background: #e08604;
+  color: #fff;
+}
+
+
+.hero-section {
+    background: linear-gradient(135deg, #ff9500 0%, #ffb84d 100%);
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.hero-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #fff8f0;
+}
+
+.benefits-list {
+    list-style: none;
+    margin: 30px 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.benefits-list li {
+    padding: 10px 0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.benefits-list i {
+    font-size: 1.3rem;
+    color: #fff8f0;
+}
+
+.cta-text {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+
+.why-choose-section {
+    padding: 80px 20px;
+    background: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.why-choose-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.benefit-card {
+    background: linear-gradient(135deg, #fff8f0 0%, #ffe5cc 100%);
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.benefit-card-r {
+    background: linear-gradient(308deg, #fff8f0 0%, #ffe5cc 100%);
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.benefit-card-r:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.benefit-card i {
+    font-size: 3rem;
+    color: #ff9500;
+    margin-bottom: 20px;
+}
+.benefit-card-r i {
+    font-size: 3rem;
+    color: #ff9500;
+    margin-bottom: 20px;
+}
+
+.benefit-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+.benefit-card-r h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* REGISTRATION FORM */
+.join-driver-section {
+  background: #fffbe0;
+  padding: 36px 8px;
+  max-width: 510px;
+  margin: 41px auto 62px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 22px #eca52c11;
+}
+
+.driver-form {
+  background: #fff;
+  border-radius: 13px;
+  box-shadow: 0 2px 10px #ffc23416;
+  padding: 28px 16px 23px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.driver-form h2 {
+  text-align: center;
+  color: #ff9500;
+  margin-bottom: 22px;
+  font-size: 1.45em;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  justify-content: center;
+}
+label {
+  font-weight: 600;
+  color: #3e2407;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  font-size: 1.09em;
+}
+.req {
+  color: #e34321; 
+  font-weight: bold;
+  font-size: 1.1em;
+  vertical-align: middle;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="file"],
+select,
+textarea {
+  margin-top: 2px;
+  margin-bottom: 0;
+  padding: 10px;
+  border: 1.5px solid #f8e1bb;
+  border-radius: 8px;
+  font-size: 1.04em;
+  background: #fffdf7;
+}
+input[type="file"] {
+  padding: 0;
+  font-size: 1em;
+  background: none;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: #ffa645;
+  outline: none;
+}
+textarea { resize: vertical; }
+.driver-docs {
+  border: 1.2px solid #ffc96c;
+  border-radius: 9px;
+  padding: 17px 12px 12px 12px;
+  background: #fffbe7;
+  margin-top: 9px;
+}
+.driver-docs legend {
+  font-size: 1.07em;
+  color: #d97d12;
+  font-weight: bold;
+}
+.driver-docs label {
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 13px;
+  gap: 5px;
+}
+
+.driver-docs label input,
+.driver-docs label textarea {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+button[type="submit"] {
+  background: #ff9500;
+  color: #fff;
+  border-radius: 19px;
+  border: none;
+  font-size: 1.14em;
+  padding: 13px 0 13px 0;
+  margin-top: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 13px #ffd47a40;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+button[type="submit"]:hover {
+  background: #e08604;
+  color: #fff;
+}
+
+
+
+
+
+
+/* Responsive */
+@media (max-width: 600px) {
+  .join-driver-section { padding: 16px 2vw; }
+  .driver-form { padding: 13px 2vw 10vw 2vw; }
+  label, .driver-docs legend { font-size: 1em; }
+  input, select, textarea { font-size: .99em; }
+}
+
+
+
+@media (max-width: 920px){
+  .join-now-banner {
+      top: 15px;
+      right: 0;
+      justify-content: center;
+      width: 100vw;
+    }
+    .join-now-btn {
+      padding: 10px 12px;
+      font-size: .99rem;
+    }
+  .hero-section h1 {
+        margin-top: 30px;
+    }
+} 
+
+
+@media (max-width: 768px) {
+    .join-now-banner {
+      top: 15px;
+      right: 0;
+      justify-content: center;
+      width: 100vw;
+    }
+    .join-now-btn {
+      padding: 10px 12px;
+      font-size: .99rem;
+    }
+    .hero-section h1 {
+        margin-top: 30px;
+        font-size: 2rem;
+    }
+    .benefits-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 431px) and (min-width: 350px){
+    .hero-section h1 {
+        margin-top: 30px;
+        font-size: 1.7rem;
+    }
+    .hero-section h2 {
+        font-size: 1.3rem;
+    }
+    .why-choose-section h2{
+      font-size: 1.5rem;
+    }
+}

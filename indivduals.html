@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="individuals.css">
+    <title>For Individuals - Zipspeeds</title>
+</head>
+
+<body>
+
+<!-- FOR INDIVIDUALS --> 
+<div id="individuals" class="ind-bg">
+<section class="ind-section">
+
+  <div class="section-wide individual-hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2><i class="fas fa-user"></i> For Individuals</h2>
+        <h3>Chhoti Badi Har Zarurat Mein – Zipspeeds Aapke Saath!</h3>
+        <p class="i-p">
+          Forgot your keys or charger?... 
+          Need to send documents urgently?... 
+          Want to deliver a gift, outfit, or groceries to someone?... 
+          Or shifting to a new room?...
+        </p>
+        <ul class="i-ul">
+          <li>Fast, safe, and reliable</li>
+          <li>Easy booking via WhatsApp</li>
+          <li>Affordable pricing</li>
+          <li>Live tracking &amp; driver support</li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+  <div class="tag">Har Delivery Hamari Zimmedari!</div>
+  <div class="i-hero-img">
+    <img src="Img/ind.png" alt="Courier delivering package" class="hero-img-responsive">
+  </div>
+  <!-- ADVANTAGE CARDS -->
+  <h3 class="i-section-title">Why Users Love Zipspeeds</h3>
+  <div class="adv-cards">
+    <div class="adv-card"><i class="fas fa-bolt adv-ic"></i><span>Same-Day Personal<br>Delivery</span></div>
+    <div class="adv-card"><i class="fas fa-comments adv-ic"></i><span>Speedy Chat Support</span></div>
+    <div class="adv-card"><i class="fas fa-list-check adv-ic"></i><span>All‑in‑one<br>Delivery Solution</span></div>
+    <div class="adv-card"><i class="fas fa-wallet adv-ic"></i><span>Pocket-Friendly<br>Service</span></div>
+    <div class="adv-card"><i class="fas fa-clock adv-ic"></i><span>30-min Pickup<br>for Urgencies</span></div>
+    <div class="adv-card"><i class="fas fa-gift adv-ic"></i><span>Gift &amp;<br>Errands Delivery</span></div>
+  </div>
+
+  <!-- VEHICLES -->
+  <h3 class="v-section-title">Our Vehicles</h3>
+    <div class="vehicles">
+        <div class="veh-card">
+          <img src="Img/bike.png" alt="Bike" class="veh-icon-img">
+          <span>Bike<br>Up to 20 kg<br><small>@40₹</small></span>
+          <a class="wp-btn" href="https://wa.me/91-7008651320" target="_blank">
+            <i class="fab fa-whatsapp"></i> Book Now
+          </a>
+        </div>
+        <div class="veh-card">
+           <img src="Img/auto.png" alt="Three-wheeler" class="veh-icon-img">
+          <span>3W Auto<br>Up to 500 kg<br><small>@203₹</small></span>
+          <a class="wp-btn" href="https://wa.me/91-7008651320" target="_blank">
+            <i class="fab fa-whatsapp"></i> Book Now
+          </a>
+        </div>
+        <div class="veh-card">
+          <img src="Img/Tata Ace.png" alt="7 feet truck" class="veh-icon-img">
+          <span>Tata Ace<br>Up to 750 kg<br><small>@300₹</small></span>
+          <a class="wp-btn" href="https://wa.me/91-7008651320" target="_blank">
+            <i class="fab fa-whatsapp"></i> Book Now
+          </a>
+        </div>
+        <div class="veh-card">
+          <img src="Img/Mahindra.png" alt="8 feet truck" class="veh-icon-img">
+          <span>Mahindra<br>Up to 1.2T-1250 kg<br><small>@400₹</small></span>
+          <a class="wp-btn" href="https://wa.me/91-7008651320" target="_blank">
+            <i class="fab fa-whatsapp"></i> Book Now
+          </a>
+        </div>
+        <div class="veh-card">
+          <img src="Img/Mahindra9ft.png" alt="8 feet truck" class="veh-icon-img">
+          <span>Mahindra-9ft<br>Up to 1.7T-1700 kg<br><small>@550₹</small></span>
+          <a class="wp-btn" href="https://wa.me/91-7008651320" target="_blank">
+            <i class="fab fa-whatsapp"></i> Book Now
+          </a>
+        </div>
+    </div>
+
+  <div class="stay-tuned">
+    <h4>Stay tuned For Seamless Connection With Us !!</h4>
+    <p>We’re working to bring you transparent, affordable pricing options when our app launches. Be the first to know!</p>
+  </div>
+</section>
+</div>
+
+<script>
+  function showSectionFromHash() {
+    // Default to business
+    var hash = window.location.hash || "#business";
+
+    // Show/hide
+    document.getElementById("biz-section").style.display = (hash === "#business") ? "block" : "none";
+    document.getElementById("ind-section").style.display = (hash === "#individuals") ? "block" : "none";
+  }
+
+  // On page load
+  window.addEventListener("DOMContentLoaded", showSectionFromHash);
+  // On hash change (user uses back/forward/browser navigation)
+  window.addEventListener("hashchange", showSectionFromHash);
+</script>
+
+</body>
+</html>
