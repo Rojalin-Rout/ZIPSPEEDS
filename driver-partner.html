@@ -79,7 +79,7 @@
 
     <!-- Page 3: Registration Form -->
     <section id="join-team-form" class="join-driver-section">
-      <form action="https://formspree.io/f/mvgbgjjg" class="driver-form" enctype="multipart/form-data" autocomplete="on">
+      <form action="https://formspree.io/f/mvgbgjjg" method="post" class="driver-form" enctype="multipart/form-data" autocomplete="on">
         <h2><i class="fas fa-user-plus"></i> Join Our Team</h2>
         
         <label for="name">Full Name <span class="req">*</span></label>
@@ -108,22 +108,29 @@
         <fieldset class="driver-docs">
           <legend>Upload Documents <span class="req">*</span></legend>
           
-          <label>RC of Vehicle <span class="req">*</span>
-            <input type="file" name="rc" accept="application/pdf,image/*" required>
-          </label>
-          <label>Adhaar <span class="req">*</span>
-            <input type="file" name="aadhaar" accept="application/pdf,image/*" required>
-          </label>
-          <label>DL (Driving License) <span class="req">*</span>
-            <input type="file" name="dl" accept="application/pdf,image/*" required>
-          </label>
-          <label>PAN (Optional)
-            <input type="file" name="pan" accept="application/pdf,image/*">
-          </label>
-          <label>Bank Details (UPI ID) <span class="req">*</span>
-            <input type="text" name="upi" required placeholder="Enter your UPI ID">
-          </label>
+          <div>
+            <label for="rc-link">RC of Vehicle <span class="req">*</span></label>
+            <input type="url" name="rc-link" id="rc-link" required placeholder="Google Drive link to RC document">
+          </div>
+          <div>
+            <label for="aadhaar-link">Adhaar <span class="req">*</span></label>
+            <input type="url" name="aadhaar-link" id="aadhaar-link" required placeholder="Google Drive link to Aadhaar document">
+          </div>
+          <div>
+            <label for="dl-link">DL (Driving License) <span class="req">*</span></label>
+            <input type="url" name="dl-link" id="dl-link" required placeholder="Google Drive link to DL document">
+          </div>
+          <div>
+            <label for="pan-link">PAN (Optional)</label>
+            <input type="url" name="pan-link" id="pan-link" placeholder="Google Drive link to PAN document">
+          </div>
+          <div>
+            <label for="upi">Bank Details (UPI ID) <span class="req">*</span></label>
+            <input type="text" name="upi" id="upi" required placeholder="Enter your UPI ID">
+          </div>
         </fieldset>
+
+
         
         <button type="submit"><i class="fas fa-paper-plane"></i> Apply Now</button>
       </form>
