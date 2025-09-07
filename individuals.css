@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url('Img/IBG.jpg') no-repeat center center fixed;
+  background: url('Img/IBG1.jpg') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   margin: 0;
@@ -50,10 +50,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-weight: bold;
 }
 
 .hero-text h2 {
   font-size: 2.2rem;
+  font-weight: 800;
   margin-bottom: 9px;
   margin-left: 250px;
   color: #d55800;

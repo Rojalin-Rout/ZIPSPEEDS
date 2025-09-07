@@ -158,6 +158,33 @@ body {
   padding-top: 8px;
 }
 
+
+#acknow {
+  max-width: 100%;
+  background: #fff7e0;
+  border-radius: 11px;
+  box-shadow: 0 5px 18px #c8e8cf2a;
+  padding: 32px 28px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Center the heading */
+#acknow h3 {
+  color: orange;
+  font-size: 1.12rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+
+
+
 .contact-form button {
   background: #ff9500;
   color: #fff;
@@ -214,6 +241,8 @@ body {
 
 
 
+
+
 /* Tablet (under 950px): Stack sidebar on top, smaller logo */
 @media (max-width: 950px) {
   .tc-header {
@@ -244,6 +273,13 @@ body {
     padding: 23px 14px;
     border-radius: 10px;
     margin: 0 4px;
+  }
+
+  #acknow {
+    padding: 24px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(200, 232, 207, 0.16);
   }
 }
 
@@ -331,6 +367,15 @@ body {
     max-width: 92vw;
     padding: 11px;
     border-radius: 12px;
+  }
+
+  #acknow {
+    padding: 18px 15px;
+    margin-top: 18px;
+  }
+
+  #acknow h3 {
+    font-size: 1rem;
   }
 }
 

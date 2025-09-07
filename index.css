@@ -51,7 +51,7 @@ ul{
 }
 
 .nav-links li{
-  margin: 0 30px;
+  margin: 0 20px;
   color: #ff4400db;
 }
 
@@ -334,8 +334,8 @@ section {
   margin-top: 36px;
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
-  padding: 40px 34px 32px 585px;
+  flex-direction: row; /* Change from column to row */
+  padding: 40px 34px 32px 50px;
 }
 .service-card {
   background: #323232;
@@ -387,6 +387,7 @@ section {
 
 /* Vehicles section */
 .vehicle-body{
+  text-align: center;
   width: 100%;
   color: #323232;
   background: linear-gradient(135deg, #ffae64 0%, #ffa646 100%);
@@ -807,7 +808,7 @@ section {
 /* GET IN TOUCH */
 .get-touch-btn {
   background: #ff9500;
-  padding: 8px 16px;
+  padding: 8px 10px;
   border-radius: 20px;
   font-weight: 600;
   transition: background 0.3s;
@@ -1213,6 +1214,18 @@ section {
 
 
 /* Mobile Device */
+@media (max-width: 1050px) {
+  .why-cards-row {
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .why-card {
+    max-width: 98vw;
+    min-width: 240px;
+    padding: 28px 10px;
+  }
+}
+
 
 @media only screen and (max-width:920px){
 
@@ -1452,6 +1465,12 @@ section {
     z-index: 2;
     position: absolute;
   }
+  .services-cards {
+    flex-direction: column; /* Stack vertically on smaller screens */
+    padding-left: 16px; /* Adjust padding */
+    padding-right: 16px;
+  }
+
 
   .v-section-title{
     margin-left: 300px;
@@ -1542,7 +1561,6 @@ section {
     margin-bottom: 30px;
   }
 }
-
 
 
 @media (max-width: 431px) and (min-width: 350px){
@@ -1683,20 +1701,6 @@ section {
 
 
 
-@media (max-width: 1050px) {
-  .why-cards-row {
-    gap: 18px;
-    flex-wrap: wrap;
-  }
-  .why-card {
-    max-width: 98vw;
-    min-width: 240px;
-    padding: 28px 10px;
-  }
-}
-
-
-
 @media (max-width: 800px) {
   .why-cards-title{
     font-size: 2rem;
@@ -1712,7 +1716,7 @@ section {
   }
 }
 
-/* Responsive design */
+
 @media (max-width:850px) {
   .growth-section { 
     padding: 420px 4vw 0px 4vw; 

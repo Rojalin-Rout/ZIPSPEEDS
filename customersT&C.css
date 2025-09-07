@@ -128,6 +128,10 @@ body {
 .tc-main-content b {
   color: #c28005;
 }
+.tc-main-content .b-black{
+  color: #242627;
+}
+
 
 .tc-footer-announcement {
   background: linear-gradient(135deg, #ffae64 0%, #ffa646 100%);;

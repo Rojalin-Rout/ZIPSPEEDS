@@ -46,26 +46,30 @@
       </div>
     </aside>
 
+
+
+
     <!-- PAGE 2: MAIN T&C CONTENT (update with required content for other versions) -->
+     <div style="flex: 1; display: flex; flex-direction: column;">
     <main class="tc-main-content">
       <h1><i class="fas fa-file-signature"></i> T&C DELIVERY PARTNERS – ZIPSPEEDS</h1>
       <section>
         <p>
-          This Driver/Delivery Partner Agreement ("Agreement") is made between Zipspeeds Private Limited ("Company," "Zipspeeds," "we," "us," or "our") and the Driver/Delivery Partner ("you," "your"). By signing up as a Driver/Delivery Partner, you agree to the following Terms and Conditions:
+          Zipspeeds Smart Technology and Transport Logistics Private Limited
+          (here in after referred to as the "ZIPSPEEDS" / "We"/"Us"/"Our" , which expression, if the context otherwise required, shall mean and include it's successor, assign and Affiliates) 
+          <br>By signing up as a Driver/Delivery Partner, you agree to the following Terms and Conditions:
         </p>
       </section>
 
       <section id="defs">
         <h3>1. Definitions</h3>
-        <p><b>1.1 Company –</b> Zipspeeds Private Limited, the platform facilitating on-demand logistics and delivery services.</p>
+        <p><b>1.1 Company –</b> Zipspeeds Smart Technology and Transport Logistics Private Limited , known as "ZIPSPEEDS" , the platform facilitating  on - demand logistics and delivery services.</p>
 
         <p><b>1.2 Driver/Delivery Partner –</b> An individual or entity registered with Zipspeeds to provide delivery services.</p>
         
-        <p><b>1.3 Customer –</b> Individuals or businesses requesting delivery services through the Zipspeeds platform.</p>
+        <p><b>1.3 Vehicle –</b> Any authorized two-wheeler, three-wheeler, or four-wheeler used for deliveries.</p>
         
-        <p><b>1.4 Vehicle –</b> Any authorized two-wheeler, three-wheeler, or four-wheeler used for deliveries.</p>
-        
-        <p><b>1.5 Service Area –</b> The geographic region where Zipspeeds operates.</p>
+        <p><b>1.4 Service Area –</b> The geographic region where Zipspeeds operates.</p>
       </section>
 
       <section id="eligibility">
@@ -213,18 +217,32 @@
       </section>
 
       <!-- ... Add all content up to ... -->
-      <section id="acknow">
-        <h3><i class="fas fa-envelope"></i>ACKNOWLEDGEMENT & ACCEPTANCE</h3>
-        <p>By signing up or continuing as a Zipspeeds Driver/Delivery Partner, you confirm that you have read, understood, and agreed to all the terms in this Agreement.
-            <br>
-            <br>[Driver/Delivery Partner Name]
-            <br>Signature: ________
-            <br>Date: _________
-            <br>Zipspeeds Smart Technology and Transport Logistics Private Limited
-            <br>Authorized Representative: ________.
+      
+
+
+    </main>
+
+    <section id="acknow">
+        <h3><i class="fas fa-envelope"></i> ACKNOWLEDGEMENT & ACCEPTANCE</h3>
+        <p>
+          By signing up or continuing as a Zipspeeds Driver/Delivery Partner, you confirm that you have read, understood, and agreed to all the terms in this Agreement.
         </p>
 
         <form action="https://formspree.io/f/mvgbgjjg" method="POST" enctype="multipart/form-data" class="contact-form">
+          
+          <label for="partnerName" class="form-label">Driver/Delivery Partner Name<span style="color:#db2c2c;">*</span></label>
+          <input type="text" id="partnerName" name="partnerName" placeholder="Enter your full name" required>
+          
+          <br><br>
+          
+          <div>
+            <label for="signatureDate" class="form-label">Date<span style="color:#db2c2c;">*</span></label>
+            <input type="date" id="signatureDate" name="signatureDate" required>
+          </div>
+
+          <p>Zipspeeds Smart Technology and Transport Logistics Private Limited</p>
+          <p>Authorized Representative: ________.</p>
+
           <div class="checkbox-group">
             <input type="checkbox" id="confirm" name="confirm" required>
             <label for="confirm" class="check-text">
@@ -233,13 +251,14 @@
           </div>
 
           <button type="submit">Submit</button>
-        </form>  
-
-      </section>
-
-    </main>
+        </form>
+    </section>
+    </div>
   </div>
 
+
+
+      
   <!-- PAGE 3: App Launch Announcement Footer -->
   <footer class="tc-footer-announcement">
     <div class="tc-announcement-box">
