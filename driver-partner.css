@@ -6,14 +6,14 @@
 }
 
 body {
-  background: url('Img/DBG1.jpg') no-repeat center center fixed;
+  background: url('Img/DBG.jpg') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
 }
 .join-now-banner {
   position: absolute;
@@ -32,7 +32,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  background: #ff9500;
+  background: #bc4e00;
   color: whitesmoke;
   font-weight: 700;
   font-size: 1.04rem;
@@ -48,7 +48,7 @@ body {
 }
 
 .join-now-btn:hover, .join-now-btn:focus {
-  background: #e08604;
+  background: #ff9500;
   color: #fff;
 }
 
@@ -57,26 +57,24 @@ body {
     color: black;
     padding: 30px 20px;
     text-align: center;
+    font-weight: bold;
 }
 .hero-container {
     max-width: 900px;
     margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px;
-    background: #fdfdfd6b;
-    border-radius: 15px;
 }
 
 .hero-section h1 {
     font-size: 2.5rem;
+    font-weight: 800;
     margin-bottom: 15px;
-     color: #ff9500;
+    color: #bc4e00;
 }
 
 .hero-section h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
-    color: #ff9500;
+    color: #bc4e00;
 }
 
 .benefits-list {
@@ -97,15 +95,16 @@ body {
 
 .benefits-list i {
     font-size: 1.3rem;
-    color: #303030;
+    color: black;
 }
 
 .cta-text {
     margin-top: 30px;
     padding: 20px;
-    background: linear-gradient(308deg, #ffebd4 0%, #f77a05 100%);
+    background: linear-gradient(308deg, #fcb565 0%, #f77a05 100%);
     border-radius: 15px;
-    color: whitesmoke;
+    color: white;
+    font-weight: lighter;
 }
 
 .why-choose-section {
@@ -132,14 +131,14 @@ body {
 }
 
 .benefit-card {
-    background: linear-gradient(135deg, #ffebd4 0%, #ffa44f 100%);
+    background: linear-gradient(135deg, #fff8f0 0%, #ffe5cc 100%);
     padding: 40px 20px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
     transition: transform 0.3s;
 }
 .benefit-card-r {
-    background: linear-gradient(308deg, #ffebd4 0%, #ffa44f 100%);
+    background: linear-gradient(308deg, #fff8f0 0%, #ffe5cc 100%);
     padding: 40px 20px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
@@ -157,12 +156,12 @@ body {
 
 .benefit-card i {
     font-size: 3rem;
-    color: #d57c00;
+    color: #ff9500;
     margin-bottom: 20px;
 }
 .benefit-card-r i {
     font-size: 3rem;
-    color: #d57c00;
+    color: #ff9500;
     margin-bottom: 20px;
 }
 
@@ -185,7 +184,7 @@ body {
 }
 
 .driver-form {
-  background: linear-gradient(308deg, #ffebd4 0%, #f7b87e 100%);
+  background: linear-gradient(308deg, #fff8f0 0%, #ffe5cc 100%);
   border-radius: 13px;
   box-shadow: 0 2px 10px #ffc23416;
   padding: 28px 16px 23px 16px;
@@ -195,7 +194,7 @@ body {
 }
 .driver-form h2 {
   text-align: center;
-  color: #333;
+  color: #ff9500;
   margin-bottom: 22px;
   font-size: 1.45em;
   display: flex;

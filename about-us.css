@@ -77,8 +77,19 @@ body {
 
 .service-item i {
     font-size: 3rem;
-    color: #ff9500;
+    color: #c45f16;
     margin-bottom: 20px;
+}
+
+.service-item img {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 80px;           /* Match or slightly larger than icon font-size (48px-64px is typical) */
+  height: 80px;          /* Same as width for square aspect */
+  object-fit: contain;   /* Preserves image’s aspect ratio, fits inside box */
+  border-radius: 0;      /* Optional: icons are not rounded, so leave as-is */
+  box-shadow: none;      /* Optional: match icon style */
+  background: none;      /* Optional: match icon style */
 }
 
 .service-item h3 {
@@ -103,7 +114,7 @@ body {
 .booking-method h3 {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    color: rgb(255, 119, 0);
+    color: #ff7700;
 }
 
 .booking-icons {
@@ -160,7 +171,7 @@ body {
 
 .feature-card i {
     font-size: 3rem;
-    color: #ff9500;
+    color: #c45f16;
     margin-bottom: 20px;
 }
 

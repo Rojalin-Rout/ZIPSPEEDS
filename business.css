@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url('Img/BBG1.jpg') no-repeat center center fixed;
+  background: url('Img/BBG.jpg') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   margin: 0;
@@ -63,7 +63,7 @@ body {
   font-size: 2.2rem;
   margin-bottom: 9px;
   margin-left: 250px;
-  color: #d55800;
+  color: #bc4e00;
   display: flex;
   align-items: center;
   gap: 9px;
@@ -72,7 +72,7 @@ body {
 
 .hero-text h3 {
   font-size: 1.2rem;
-  color: #713f00;
+  color: #b16200;
   margin-bottom: 25px;
   margin-left: 150px;
 }
@@ -80,7 +80,7 @@ body {
   font-size: 1.09rem;
   margin-bottom: 10px;
   margin-left: -250px;
-  color: #444;
+  color: black;
 }
 .hero-text ul {
   margin-left: -100px;
@@ -88,7 +88,7 @@ body {
   margin-bottom: 40px;
   padding: 0 0 0 20px;
   font-size: 1.1rem;
-  color: #303030;
+  color: black;
 }
 .hero-text ul li {
   margin-bottom: 10px;
@@ -98,7 +98,7 @@ body {
 }
 .hero-text ul li:before {
   content: "✔";
-  color: #ff9500;
+  color: orangered;
   position: absolute;
   left: 0;
 }
@@ -171,7 +171,7 @@ body {
 /* Tagline */
 .tag {
   margin: -50px 0 18px 0;
-  color: #d36b00;
+  color: #b16200;
   font-size: 1.11rem;
   font-weight: bold;
   text-align: center;
