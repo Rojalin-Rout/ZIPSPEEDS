@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url('Img/IBG.jpg') no-repeat center center fixed;
+  background: url('Img/IBG1.jpg') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   margin: 0;
@@ -60,7 +60,7 @@ body {
 .hero-text h2 {
   font-size: 2.2rem;
   margin-bottom: 12px;
-  color: #bc4e00;
+  color: #b16200;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -71,7 +71,7 @@ body {
 
 .hero-text h3 {
   font-size: 1.2rem;
-  color: #b16200;
+  color: #bc4e00;
   margin-bottom: 24px;
   text-align: center;
   font-weight: 600;
@@ -126,7 +126,7 @@ body {
 /* Tagline */
 .tag {
   margin: 18px 0;
-  color: #b16200;
+  color: #bc4e00;
   font-size: 1.11rem;
   font-weight: bold;
   text-align: center;

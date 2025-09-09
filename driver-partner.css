@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url('Img/DBG.jpg') no-repeat center center fixed;
+  background: url('Img/DBG1.jpg') no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   margin: 0;
@@ -356,7 +356,7 @@ button[type="submit"]:hover {
     }
     .hero-section h1 {
         margin-top: 30px;
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .benefits-grid {
         grid-template-columns: 1fr;

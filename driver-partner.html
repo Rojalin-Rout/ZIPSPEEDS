@@ -99,36 +99,41 @@
           <option value="">Select vehicle type</option>
           <option value="2w">2 Wheeler</option>
           <option value="3w">3 Wheeler</option>
-          <option value="4w">4 Wheeler</option>
+          <optgroup label="4 Wheeler">
+            <option value="tata-ace">Tata Ace</option>
+            <option value="pickup-8ft">Pickup-8ft</option>
+            <option value="pickup-9ft">Pickup-9ft</option>
+          </optgroup>
         </select>
         
         <label for="address">Current Address <span class="req">*</span></label>
         <textarea name="address" id="address" rows="2" required placeholder="Your current address"></textarea>
         
         <fieldset class="driver-docs">
-          <legend>Upload Documents <span class="req">*</span></legend>
+          <legend>Govt. ID Numbers <span class="req">*</span></legend>
           
           <div>
-            <label for="rc-link">RC of Vehicle <span class="req">*</span></label>
-            <input type="url" name="rc-link" id="rc-link" required placeholder="Google Drive link to RC document">
+            <label for="rc-number">RC Number <span class="req">*</span></label>
+            <input type="text" name="rc-number" id="rc-number" required placeholder="Enter RC Number">
           </div>
           <div>
-            <label for="aadhaar-link">Adhaar <span class="req">*</span></label>
-            <input type="url" name="aadhaar-link" id="aadhaar-link" required placeholder="Google Drive link to Aadhaar document">
+            <label for="aadhaar-number">Aadhaar Number <span class="req">*</span></label>
+            <input type="text" name="aadhaar-number" id="aadhaar-number" required placeholder="Enter Aadhaar Number" pattern="[0-9]{12}" maxlength="12" title="12 digit Aadhaar number">
           </div>
           <div>
-            <label for="dl-link">DL (Driving License) <span class="req">*</span></label>
-            <input type="url" name="dl-link" id="dl-link" required placeholder="Google Drive link to DL document">
+            <label for="dl-number">Driving License Number <span class="req">*</span></label>
+            <input type="text" name="dl-number" id="dl-number" required placeholder="Enter Driving License Number">
           </div>
           <div>
-            <label for="pan-link">PAN (Optional)</label>
-            <input type="url" name="pan-link" id="pan-link" placeholder="Google Drive link to PAN document">
+            <label for="pan-number">PAN Number (Optional)</label>
+            <input type="text" name="pan-number" id="pan-number" placeholder="Enter PAN Number" maxlength="10" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" title="Example: ABCDE1234F">
           </div>
           <div>
             <label for="upi">Bank Details (UPI ID) <span class="req">*</span></label>
             <input type="text" name="upi" id="upi" required placeholder="Enter your UPI ID">
           </div>
         </fieldset>
+
 
         
         <button type="submit"><i class="fas fa-paper-plane"></i> Apply Now</button>
