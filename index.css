@@ -235,15 +235,6 @@ header {
 
 
 
-/*Our Services*/
-section {
-  width: 100%;
-  color: #323232;
-  background: linear-gradient(135deg, #ffae64 0%, #ffa646 100%);
-  margin: 0;
-  min-height: 100vh;
-}
-
 
 /* Dropdown menu styling */
 .nav-links {
@@ -311,11 +302,13 @@ section {
 
 
 
+
+/*Our Services*/
 .services-main {
   text-align: center;
   background: linear-gradient(135deg, #fe982c 0%, #ffa64698 100%);
   margin: 0;
-  min-height: 80vh;
+  min-height: auto;
   padding-top: 40px;
 }
 
@@ -401,7 +394,7 @@ section {
   color: #323232;
   background: linear-gradient(135deg, #ffae64 0%, #ffa646 100%);
   margin: 0;
-  min-height: 80vh;
+  min-height: auto;
   padding-top: 90px;
   padding-bottom: 100px;
 }
@@ -490,7 +483,7 @@ section {
 /* Cities */
 #cities{
   margin-top: -100px;
-  min-height: 100vh;
+  min-height: auto;
   padding-bottom: 30px;
   background: linear-gradient(135deg, #ffae64 0%, #ffa646 100%);
 }
@@ -640,6 +633,7 @@ section {
   background: linear-gradient(90deg, #131a1f 60%, #191f28 100%);
   color: #fff;
   padding: 50px 12px;           /* Add top/bottom space for better vertical centering */
+  min-height: auto;
   display: flex;
   align-items: center;           /* Vertical center */
   justify-content: center;       /* Horizontal center */
@@ -647,13 +641,12 @@ section {
 }
 .growth-content {
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 30px auto;
   text-align: center;
 }
 .growth-title {
   font-size: 2.3rem;
   font-weight: 700;
-  margin-bottom: 46px;
   letter-spacing: 0.02em;
   color: #fff;
 }
@@ -703,11 +696,40 @@ section {
 }
 
 
+.growth-description {
+  max-width: 700px;
+  margin: 50px auto 0px auto;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: #dcdcdc;
+  line-height: 1.5;
+  text-align: center;
+  padding: 0 12px;
+}
+
+@media (max-width: 960px) {
+  .growth-description {
+    font-size: 1.04rem;
+    margin-bottom: 20px;
+    max-width: 90vw;
+    padding: 0 8px;
+  }
+}
+
+@media (max-width: 540px) {
+  .growth-description {
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+  }
+}
+
+
 
 /*Why Choose Us*/
 .why-cards-section {
   background: #fff;
   padding: 55px 12px 80px 12px;
+  min-height: auto;
 }
 
 .why-cards-title {
@@ -1047,7 +1069,7 @@ section {
   color: #323232;
   background: linear-gradient(135deg, #febb78 0%, #ff8402 100%);
   margin: 0;
-  min-height: 80vh;
+  min-height: auto;
   padding-top: 90px;
 }
 .footer-grid {
