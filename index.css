@@ -965,20 +965,23 @@ header {
 }
 
 .faq-section h2 {
-  padding-top: 0px;
   text-align: center;
-  font-size: 3vmin;
-  margin-bottom: 36px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 11px;
+  color: #222;
+  letter-spacing: 0.01em;
+  position: relative;
 
 }
 
 .f-line{
-  width: 250px;
+  width: 150px;
   height: 4px;
   background: #ff5f17;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -28px;
+  margin-top: 5px;
   margin-bottom: 70px;
   border-radius: 5px;
 }
@@ -1070,7 +1073,7 @@ header {
   background: linear-gradient(135deg, #febb78 0%, #ff8402 100%);
   margin: 0;
   min-height: auto;
-  padding-top: 50px;
+  padding-top: 90px;
 }
 .footer-grid {
   display: grid;
@@ -1841,8 +1844,7 @@ header {
   .faq-section h2 {
     margin-left: 0px;
     text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 50px;
+    font-size: 1.5rem;
     color: #333;
 }
 }
