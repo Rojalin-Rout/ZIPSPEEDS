@@ -136,7 +136,7 @@ header {
   font-size: 3vw; /* Responsive font size */
   margin: 0 0 12px 0;
   text-shadow: 0 2px 20px orangered;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .announcement-banner {
